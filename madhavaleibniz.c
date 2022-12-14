@@ -15,6 +15,6 @@ int main() {
         sum += fract;
         odd = odd + 2;
         pi = sqrt (12) * sum;
-        printf("PI = %f", pi);
+        printf("PI = %f\n", pi); //it gets better at the fifth iteration
     }   
 }
